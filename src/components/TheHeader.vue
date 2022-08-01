@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="header__container">
+    <div class="section-container header__container">
       <a class="header__logo">WORCAT</a>
       <ul class="header__nav">
         <li><a href="">О проекте</a></li>
@@ -31,9 +31,6 @@ export default {
 }
 
 .header__container {
-  max-width: calc(1771px + 2rem);
-  margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

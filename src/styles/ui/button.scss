@@ -1,8 +1,11 @@
 .ui-button {
-  max-width: 260px;
+  cursor: pointer;
+
+  width: 100%;
+  //max-width: 260px;
   height: 50px;
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
@@ -15,6 +18,7 @@
   background: linear-gradient(200.42deg, #844FFC 13.57%, #491EB8 98.35%);
   border-radius: 20px;
 }
+
 .play-btn {
   max-width: 180px;
   height: 28px;

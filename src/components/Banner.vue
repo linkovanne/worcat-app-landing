@@ -1,27 +1,55 @@
 <template>
   <section class="banner">
-    <div class="banner__container">
+    <div class="section-container banner__container">
       <div class="banner__row">
-        <div class="banner__description">
+        <div class="section-container__description banner__description">
           <h2>Добро пожаловать в мир Worcat</h2>
           <p>— это первая мобильная игра на базе NFT и концепции Life-to-Earn (Живи, чтобы зарабатывать),
             созданная на блокчейне «название». </p>
           <img src="@/assets/wk_logo.png" alt="">
         </div>
-        <div class="banner__app"></div>
-      </div>
-      <div class="banner__carousel">
-        <h2>Установите приложение Worcat-world</h2>
-        <p>Для начала нужно скачать приложение WorCat и зарегистрироваться</p>
-        <a class="ui-button" href="">Get Started</a>
+        <div class="banner__app">
+          <h2>Установите приложение Worcat-world</h2>
+          <p>Для начала нужно скачать приложение WorCat и зарегистрироваться</p>
+          <a class="ui-button" href="">Get Started</a>
+        </div>
+        <div class="banner__carousel-wrap">
+          <ul class="banner__carousel">
+            <li class="banner__carousel-item hot"><img src="@/assets/banner/rectangle_01.png" alt=""></li>
+            <li class="banner__carousel-item awesome"><img src="@/assets/banner/rectangle_02.png" alt=""></li>
+            <li class="banner__carousel-item"><img src="@/assets/banner/rectangle_03.png" alt=""></li>
+            <li class="banner__carousel-item"><img src="@/assets/banner/rectangle_04.png" alt=""></li>
+            <li class="banner__carousel-item awesome"><img src="@/assets/banner/rectangle_05.png" alt=""></li>
+            <li class="banner__carousel-item"><img src="@/assets/banner/rectangle_06.png" alt=""></li>
+            <li class="banner__carousel-item awesome"><img src="@/assets/banner/rectangle_07.png" alt=""></li>
+          </ul>
+        </div>
       </div>
       <ul class="banner__social">
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Telegram канал</a></li>
-        <li><a href="">Telegram чат</a></li>
-        <li><a href="">TikTok</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">YouTube</a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/instagram.svg" alt="">
+          Instagram
+        </a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/telegram.svg" alt="">
+          Telegram канал
+        </a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/telegram.svg" alt="">
+          Telegram чат
+        </a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/tiktok.svg" alt="">
+          TikTok
+        </a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/twitter.svg" alt="">
+          Twitter
+        </a></li>
+        <li><a class="banner__social-link" href="">
+          <img src="@/assets/social/youtube.svg" alt="">
+          YouTube
+        </a></li>
       </ul>
     </div>
   </section>
@@ -30,10 +58,217 @@
 <script>
 export default {
   name: 'BannerSection',
-  components: {}
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "src/styles/variables";
 
+.banner {
+  h2 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    @media (min-width: 768px) {
+      font-size: 34px;
+      line-height: 1.2;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 26px;
+      line-height: 1.15;
+      text-align: center;
+    }
+  }
+}
+
+.banner__container {
+  @media (min-width: 768px) {
+    max-width: 1661px;
+    padding-top: 109px;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 14px;
+  }
+}
+
+.banner__row {
+  display: flex;
+  flex-wrap: wrap;
+  @media (min-width: 768px) {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.banner__description {
+  @media (min-width: 768px) {
+    max-width: 344px;
+  }
+  @media (max-width: 767.98px) {
+  }
+
+  h2 {
+    margin-bottom: 23px;
+  }
+
+  p {
+    @media (min-width: 768px) {
+      margin-bottom: 55px;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 1.46;
+      text-align: center;
+    }
+  }
+
+  img {
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+  }
+}
+
+.banner__app {
+  @media (min-width: 768px) {
+    max-width: 320px;
+    padding: 30px;
+    background: linear-gradient(181.35deg, rgba(255, 255, 255, 0.5) 1.15%, rgba(255, 255, 255, 0) 98.91%);
+    backdrop-filter: blur(70px);
+    border-radius: 30px;
+  }
+  @media (max-width: 767.98px) {
+    position: relative;
+    margin-top: 73px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    order: 1;
+    text-align: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 22px;
+      width: 228px;
+      background: url("@/assets/line.svg") center / contain no-repeat;
+    }
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgba(235, 235, 245, 0.6);
+    @media (min-width: 768px) {
+    }
+    @media (max-width: 767.98px) {
+      font-size: 16px;
+      line-height: 1.46;
+    }
+  }
+}
+
+.banner__carousel-wrap {
+  @media (min-width: 768px) {
+    position: relative;
+    max-width: calc(100% - 80px);
+    margin: 73px -10px 0;
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      height: 1px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 0;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 55%;
+      background: url("@/assets/line.svg") center / contain no-repeat;
+    }
+  }
+  @media (max-width: 767.98px) {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
+
+.banner__carousel {
+  display: flex;
+  @media (min-width: 768px) {
+    padding-bottom: 23px;
+  }
+  @media (max-width: 767.98px) {
+    overflow-x: scroll;
+  }
+}
+
+.banner__carousel-item {
+  padding: 0 10px;
+  flex: 1 auto;
+  @media (max-width: 767.98px) {
+    width: 128px;
+  }
+
+  &.hot {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      bottom: -16px;
+      width: 72px;
+      height: 72px;
+      background: url("@/assets/status_hot.svg") center / contain no-repeat;
+    }
+  }
+
+  &.awesome {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: url("@/assets/status_awesome.svg") center / contain no-repeat;
+    }
+  }
+}
+
+.banner__social {
+  margin: 41px -10px 0;
+  display: flex;
+  align-items: center;
+  @media (max-width: 767.98px) {
+    display: none;
+  }
+
+  li {
+    margin: 0 10px;
+  }
+}
+
+.banner__social-link {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 8px;
+  }
+}
 </style>

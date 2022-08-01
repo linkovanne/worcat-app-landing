@@ -13,11 +13,30 @@ export default {
 
 <style scoped lang="scss">
 .email-form {
-  display: flex;
+  width: 100%;
+  max-width: 579px;
+  display: inline-flex;
   align-items: center;
+  @media (min-width: 768px) { }
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ui-input {
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
 
   .ui-button {
-    margin-left: 19px;
+    @media (min-width: 768px) {
+      width: calc(50% - 19px);
+      margin-left: 19px;
+    }
+    @media (max-width: 767.98px) {
+      margin-top: 25px;
+    }
   }
 }
 </style>

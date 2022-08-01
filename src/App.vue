@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TheHeader/>
+<!--    <TheHeader/>-->
 
     <BannerSection/>
     <AboutSection/>
@@ -11,12 +11,13 @@
     <Features2Section/>
     <AccessorySection/>
     <HeroSection/>
-    <LaunchSection/>
+    <MissionSection/>
+<!--    <LaunchSection/>-->
   </div>
 </template>
 
 <script>
-import TheHeader from './components/TheHeader.vue'
+// import TheHeader from './components/TheHeader.vue'
 import AboutSection from './components/About.vue'
 import BannerSection from './components/Banner.vue'
 import GameplaySection from './components/Gameplay.vue'
@@ -26,22 +27,24 @@ import FeaturesNftSection from './components/FeaturesNft.vue'
 import PaymentSection from "@/components/Payment";
 import AccessorySection from "@/components/Accessory";
 import HeroSection from "@/components/Hero";
-import LaunchSection from "@/components/Launch";
+import MissionSection from "@/components/Mission";
+// import LaunchSection from "@/components/Launch";
 
 export default {
   name: 'App',
   components: {
-    LaunchSection,
-    HeroSection,
-    AccessorySection,
-    PaymentSection,
-    TheHeader,
-    AboutSection,
+    // TheHeader,
     BannerSection,
+    AboutSection,
     GameplaySection,
     FeaturesSection,
-    Features2Section,
+    PaymentSection,
     FeaturesNftSection,
+    Features2Section,
+    AccessorySection,
+    HeroSection,
+    MissionSection,
+    // LaunchSection,
   }
 }
 </script>

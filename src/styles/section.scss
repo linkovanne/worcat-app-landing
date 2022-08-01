@@ -1,0 +1,21 @@
+.section {
+}
+
+.section-container {
+  width: 100%;
+  max-width: calc(1771px + 2rem);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section-container__description {
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
+
+.section-container__img {
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
