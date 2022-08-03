@@ -1,0 +1,19 @@
+.ui-social {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 -8px;
+
+  li {
+    padding: 0 8px;
+  }
+}
+
+.ui-social__link {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 8px;
+  }
+}

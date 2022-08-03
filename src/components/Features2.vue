@@ -40,12 +40,13 @@ export default {
 .features__container {
   position: relative;
   display: flex;
-  justify-content: flex-end;
   @media (min-width: 1024px) {
     padding-top: 140px;
+    justify-content: flex-end;
   }
   @media (max-width: 1023.98px) {
     padding-top: 89px;
+    justify-content: center;
   }
 }
 

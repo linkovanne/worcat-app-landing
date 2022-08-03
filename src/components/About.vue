@@ -17,12 +17,12 @@
             Коды выдаются один раз в день, их можно найти в каналах WorCat посвященных игре.
           </p>
         </div>
-        <ul class="about__social">
-          <li><a class="about__social-link" href="">
+        <ul class="about__social ui-social">
+          <li><a class="ui-social__link" href="">
             <img src="@/assets/social/telegram.svg" alt="">
             Telegram канал
           </a></li>
-          <li><a class="about__social-link" href="">
+          <li><a class="ui-social__link" href="">
             <img src="@/assets/social/telegram.svg" alt="">
             Telegram чат
           </a></li>
@@ -126,29 +126,14 @@ export default {
 }
 
 .about__social {
-  display: flex;
-  align-items: center;
   font-size: 14px;
   @media (min-width: 1024px) {
-    margin: 36px -8px 0;
+    margin-top: 36px;
   }
   @media (max-width: 1023.98px) {
-    margin: 25px -8px 0;
+    margin-top: 25px;
     justify-content: center;
     //  display: none;
-  }
-
-  li {
-    padding: 0 8px;
-  }
-}
-
-.about__social-link {
-  display: flex;
-  align-items: center;
-
-  img {
-    margin-right: 8px;
   }
 }
 

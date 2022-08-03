@@ -1,7 +1,9 @@
 <template>
   <section class="mission">
     <div class="section-container mission__container">
-      <div class="section-container__img mission__img"></div>
+      <div class="section-container__img mission__img">
+        <img src="@/assets/mission.png" alt="mission">
+      </div>
       <div class="section-container__description mission__description">
         <h2>Наша миссия</h2>
         <p>С помощью доступного языка геймификации в своей основе WorCat сможет привлечь миллионы поклонников к
@@ -25,47 +27,57 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "src/styles/variables";
 .mission {
 }
 
 .mission__container {
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
+  display: flex;
   @media (min-width: 1024px) {
-    display: flex;
-    padding-top: 189px;
-    &:before {
-      top: 75px;
-      width: 395px;
-      height: 38px;
-      background: url("@/assets/line.svg") center / contain no-repeat;
-    }
+    padding-top: 323px;
   }
   @media (max-width: 1023.98px) {
-    padding-top: 88px;
-    &:before {
-      top: 33px;
-      width: 160.49px;
-      height: 15.12px;
-      background: url("@/assets/line_purple.svg") center / contain no-repeat;
-    }
+    padding-top: 36px;
+    flex-direction: column;
   }
 }
 
 .mission__img {
+  @media (max-width: 1023.98px) {
+    margin-top: 36px;
+    order: 1;
+  }
 }
 
 .mission__description {
+  position: relative;
   letter-spacing: 0.374px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background: url("@/assets/line.svg") center / contain no-repeat;
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 176px;
+    &:before {
+      top: 75px;
+      left: 0;
+      width: 395px;
+      height: 38px;
+    }
+  }
   @media (max-width: 1023.98px) {
+    padding-top: 128px;
     text-align: center;
+    &:before {
+      top: 33px;
+      left: 50%;
+      width: 188.39px;
+      height: 18.38px;
+    }
   }
 
   h2 {
@@ -81,8 +93,8 @@ export default {
   }
 
   p {
-    max-width: 683px;
     @media (min-width: 1024px) {
+      max-width: 683px;
       font-size: 18px;
       line-height: 1.4;
     }
@@ -98,6 +110,8 @@ export default {
     }
     @media (max-width: 1023.98px) {
       margin-top: 25px;
+      font-weight: 600;
+      font-size: $white;
     }
   }
 }

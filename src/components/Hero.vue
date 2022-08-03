@@ -63,17 +63,21 @@ export default {
   }
 
   h2 {
-    max-width: 638px;
     margin-bottom: 92px;
     font-weight: 700;
     font-size: 34px;
     line-height: 1.2;
+    @media (min-width: 1024px) {
+      max-width: 638px;
+    }
   }
 
   p {
-    max-width: 680px;
     font-size: 18px;
     line-height: 1.4;
+    @media (min-width: 1024px) {
+      max-width: 680px;
+    }
   }
 }
 
@@ -141,7 +145,7 @@ export default {
   li {
     position: relative;
     max-width: calc(415px + 33px + 53px);
-    height: 53px;
+    min-height: 53px;
     margin-bottom: 16px;
     padding-left: calc(33px + 53px);
     font-size: 18px;

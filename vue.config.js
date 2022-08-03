@@ -1,3 +1,6 @@
+module.exports = {
+    publicPath: '/worcat-app-landing/'
+}
 /*
 module.exports = {
     chainWebpack: (config) => {

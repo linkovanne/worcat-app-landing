@@ -25,28 +25,28 @@
           </ul>
         </div>
       </div>
-      <ul class="banner__social">
-        <li><a class="banner__social-link" href="">
+      <ul class="ui-social banner__social">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/instagram.svg" alt="">
           Instagram
         </a></li>
-        <li><a class="banner__social-link" href="">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
           Telegram канал
         </a></li>
-        <li><a class="banner__social-link" href="">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
           Telegram чат
         </a></li>
-        <li><a class="banner__social-link" href="">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/tiktok.svg" alt="">
           TikTok
         </a></li>
-        <li><a class="banner__social-link" href="">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/twitter.svg" alt="">
           Twitter
         </a></li>
-        <li><a class="banner__social-link" href="">
+        <li><a class="ui-social__link" href="">
           <img src="@/assets/social/youtube.svg" alt="">
           YouTube
         </a></li>
@@ -251,24 +251,9 @@ export default {
 }
 
 .banner__social {
-  margin: 41px -10px 0;
-  display: flex;
-  align-items: center;
+  margin-top: 41px;
   @media (max-width: 767.98px) {
     display: none;
-  }
-
-  li {
-    margin: 0 10px;
-  }
-}
-
-.banner__social-link {
-  display: flex;
-  align-items: center;
-
-  img {
-    margin-right: 8px;
   }
 }
 </style>
