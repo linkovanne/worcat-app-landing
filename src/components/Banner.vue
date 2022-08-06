@@ -104,6 +104,7 @@ export default {
     max-width: 344px;
   }
   @media (max-width: 767.98px) {
+    margin-bottom: 43px;
   }
 
   h2 {
@@ -213,39 +214,47 @@ export default {
   }
   @media (max-width: 767.98px) {
     overflow-x: scroll;
+    width: fit-content;
   }
 }
 
 .banner__carousel-item {
   padding: 0 10px;
-  flex: 1 auto;
+  @media (min-width: 768px) {
+    flex: 1 auto;
+  }
   @media (max-width: 767.98px) {
-    width: 128px;
+    width: 148px;
+    height: 128px;
   }
 
   &.hot {
-    position: relative;
+    @media (min-width: 768px) {
+      position: relative;
 
-    &:after {
-      content: '';
-      position: absolute;
-      right: 10px;
-      bottom: -16px;
-      width: 72px;
-      height: 72px;
-      background: url("@/assets/status_hot.svg") center / contain no-repeat;
+      &:after {
+        content: '';
+        position: absolute;
+        right: 10px;
+        bottom: -16px;
+        width: 72px;
+        height: 72px;
+        background: url("@/assets/status_hot.svg") center / contain no-repeat;
+      }
     }
   }
 
   &.awesome {
-    position: relative;
+    @media (min-width: 768px) {
+      position: relative;
 
-    &:after {
-      content: '';
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      background: url("@/assets/status_awesome.svg") center / contain no-repeat;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: url("@/assets/status_awesome.svg") center / contain no-repeat;
+      }
     }
   }
 }
