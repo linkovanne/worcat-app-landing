@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-        <TheHeader/>
+    <TheHeader/>
 
-        <BannerSection/>
-        <AboutSection/>
-        <GameplaySection/>
-        <FeaturesSection/>
-        <PaymentSection/>
-        <FeaturesNftSection/>
-        <Features2Section/>
-        <AccessorySection/>
-        <HeroSection/>
-        <MissionSection/>
-        <EducationSection/>
-<!--    <RoadmapSection/>-->
+    <BannerSection/>
+    <AboutSection/>
+    <GameplaySection/>
+    <FeaturesSection/>
+    <PaymentSection/>
+    <FeaturesNftSection/>
+    <Features2Section/>
+    <AccessorySection/>
+    <HeroSection/>
+    <MissionSection/>
+    <EducationSection/>
+    <RoadmapSection/>
 
-        <TheFooter/>
+    <TheFooter/>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ import AccessorySection from '@/components/Accessory';
 import HeroSection from '@/components/Hero';
 import MissionSection from '@/components/Mission';
 import EducationSection from '@/components/Education';
-// import RoadmapSection from '@/components/Roadmap';
+import RoadmapSection from '@/components/Roadmap';
 
 export default {
   name: 'App',
@@ -51,7 +51,7 @@ export default {
     HeroSection,
     MissionSection,
     EducationSection,
-    // RoadmapSection,
+    RoadmapSection,
   }
 }
 </script>

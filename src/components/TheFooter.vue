@@ -12,7 +12,7 @@
           <li><a href="">View on OpenSea</a></li>
         </ul>
         <div class="footer__action">
-          <div class="play-btn">Play trailer</div>
+          <ThePlayTrailer/>
         </div>
       </div>
       <ul class="ui-social footer__social">
@@ -47,8 +47,11 @@
 </template>
 
 <script>
+import ThePlayTrailer from './ThePlayTrailer'
+
 export default {
-  name: 'TheFooter'
+  name: 'TheFooter',
+  components: {ThePlayTrailer}
 }
 </script>
 
@@ -105,9 +108,6 @@ export default {
   @media (max-width: 1023.98px) {
     order: -1;
   }
-}
-
-.play-btn {
 }
 
 .footer__social {
