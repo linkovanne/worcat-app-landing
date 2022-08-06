@@ -12,8 +12,10 @@
         <EmailForm class="accessory__form" />
       </div>
       <div class="section-container__img accessory__img">
-        <img class="pc" src="@/assets/accessory.png" alt="screens">
-        <img class="mob" src="@/assets/accessory_mob.png" alt="screens">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             class="pc" src="@/assets/accessory.png" alt="screens">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             class="mob" src="@/assets/accessory_mob.png" alt="screens">
       </div>
     </div>
   </section>

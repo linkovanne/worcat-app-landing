@@ -7,8 +7,7 @@
           ходьбу и бег, еда, покупки одежды, инвентаря, музыки и так далее.
         </p>
         <img class="about__description-img" src="@/assets/about_bg.png" alt="bgr">
-        <p>
-          Проект создаёт команда, которая разработала десятки приложений и коллекций, в том числе недавняя коллекция</p>
+        <p>Проект создаёт команда, которая разработала десятки приложений и коллекций, в том числе недавняя коллекция</p>
         <div class="about__form">
           <EmailForm/>
           <p>
@@ -29,7 +28,8 @@
         </ul>
       </div>
       <div class="section-container__img about__img">
-        <img src="@/assets/about_bg.png" alt="bgr">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             src="@/assets/about_bg.png" alt="bgr">
       </div>
     </div>
   </section>
@@ -49,15 +49,14 @@ export default {
   overflow-x: hidden;
 }
 
-//@media (min-width: 1024px) { }
-//@media (max-width: 1023.98px) { }
-
 .about__container {
   letter-spacing: 0.374px;
   @media (min-width: 1024px) {
-    position: relative;
     padding-top: 132px;
     padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   @media (max-width: 1023.98px) {
     padding-top: 50px;
@@ -133,15 +132,10 @@ export default {
   @media (max-width: 1023.98px) {
     margin-top: 25px;
     justify-content: center;
-    //  display: none;
   }
 }
 
 .about__img {
-  position: absolute;
-  top: 50px;
-  right: -27px;
-  width: 45%;
   max-width: 740px;
   @media (max-width: 1023.98px) {
     display: none;

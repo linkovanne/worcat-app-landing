@@ -20,8 +20,10 @@
         </div>
       </div>
       <div class="features__img">
-        <img class="pc" src="@/assets/features.png" alt="features">
-        <img class="mob" src="@/assets/features_mob.png" alt="features">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             class="pc" src="@/assets/features.png" alt="features">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             class="mob" src="@/assets/features_mob.png" alt="features">
       </div>
     </div>
   </section>

@@ -3,7 +3,8 @@
     <div class="section-container gameplay__container">
       <div class="gameplay__row">
         <div class="gameplay__img">
-          <img src="@/assets/gameplay.png" alt="">
+          <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
+               src="@/assets/gameplay.png" alt="">
         </div>
 
         <div class="section-container__description gameplay__description">

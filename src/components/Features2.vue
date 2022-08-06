@@ -2,7 +2,8 @@
   <section class="section features">
     <div class="section-container features__container">
       <div class="section-container__img features__img">
-        <img src="@/assets/features_2/feature_bgr.png" alt="cat">
+        <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
+             src="@/assets/features_2/feature_bgr.png" alt="cat">
       </div>
       <div class="section-container__description features__description">
         <div class="features__description-block">
@@ -79,7 +80,6 @@ export default {
 
 .features__carousel {
   position: absolute;
-  //margin-top: 130px;
   display: flex;
   justify-content: center;
   @media (min-width: 1024px) {

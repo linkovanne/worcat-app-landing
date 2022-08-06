@@ -15,7 +15,8 @@
           <EmailForm class="features-nft__form"/>
         </div>
         <div class="features-nft__img">
-          <img src="@/assets/features_nft_bg.png" alt="">
+          <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+               src="@/assets/features_nft_bg.png" alt="">
         </div>
       </div>
     </div>
