@@ -3,14 +3,10 @@
     <div class="section-container features-nft__container">
       <div class="features-nft__row">
         <div class="section-container__description features-nft__description">
-          <h2>WorCat — динамические NFT</h2>
+          <h2>WorCat is a dynamic NFT!</h2>
           <p>
-            Одна из особенностей WorCat — динамические NFT. <br>
-            Коты работают по принципу игровых аватаров, но они не статичны.
-            Апгрейд NFT-кота с течением времени улучшит как его внешность,
-            так и его характеристики. Игроки смогут свободно торговать котами
-            на специальном маркетплейсе или использовать их для участия
-            в виртуальных батлах в разных локациях.
+            Dynamic NFTs is one of the features of WorCat. <br>
+            Cats operate on the principle of game avatars but they are not static.
           </p>
           <EmailForm class="features-nft__form"/>
         </div>
@@ -33,9 +29,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.features-nft {
-}
-
 .features-nft__container {
   @media (min-width: 1024px) {
     padding-top: 123px;

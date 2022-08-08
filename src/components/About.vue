@@ -1,29 +1,24 @@
 <template>
-  <section class="about">
+  <section id="about_us" class="about">
     <div class="section-container about__container">
       <div class="section-container__description about__description">
-        <h2>WorCat — первая мобильная игра на базе NFT</h2>
-        <p>Она позволяет пользователям получать токены за физическую активность с персонажем в CAT-вселенной:
-          ходьбу и бег, еда, покупки одежды, инвентаря, музыки и так далее.
-        </p>
+        <h2>WorCat — is the first mobile game based on NFT</h2>
+        <p>The game allows users to receive tokens for physical character activity in the CAT universe such as walking,
+          running, eating, buying clothes, inventory or music and so on.</p>
         <img class="about__description-img" src="@/assets/about_bg.png" alt="bgr">
-        <p>Проект создаёт команда, которая разработала десятки приложений и коллекций, в том числе недавняя коллекция</p>
         <div class="about__form">
           <EmailForm/>
-          <p>
-            Для начала нужно скачать приложение WorCat и зарегистрироваться в нем через email-адрес,
-            а затем получить код активации. <br>
-            Коды выдаются один раз в день, их можно найти в каналах WorCat посвященных игре.
-          </p>
+          <p>The project is being created by a team of professionals. They have developed dozens of Apps and collections
+            including a recent one.</p>
         </div>
         <ul class="about__social ui-social">
           <li><a class="ui-social__link" href="">
             <img src="@/assets/social/telegram.svg" alt="">
-            Telegram канал
+            Telegram channel
           </a></li>
           <li><a class="ui-social__link" href="">
             <img src="@/assets/social/telegram.svg" alt="">
-            Telegram чат
+            Telegram chat
           </a></li>
         </ul>
       </div>

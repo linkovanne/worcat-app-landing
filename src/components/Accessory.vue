@@ -1,13 +1,16 @@
 <template>
-  <section class="accessory">
+  <section id="app" class="accessory">
     <div class="section-container accessory__container">
       <div class="section-container__description accessory__description">
-        <h2>Использование приложения «WorCat Активность» на Apple Watch</h2>
+        <h2>
+          Using the «WorCat Activity» <br>
+          App on Apple Watch
+        </h2>
         <p>
-          Одна из особенностей WorCat — динамические NFT.
-          Коты работают по принципу игровых аватаров, но они не статичны. Апгрейд NFT-кота с течением времени улучшит
-          как его внешность, так и его характеристики. Игроки смогут свободно торговать котами
-          на специальном маркетплейсе или использовать их для участия в виртуальных батлах в разных локациях.
+          It is possible to improve your cat’s appearance and characteristics with
+          the help of the upgrade after some time. <br>
+          Players will be able to freely trade cats on a special marketplace
+          or use them to participate in virtual battles in different locations.
         </p>
         <EmailForm class="accessory__form" />
       </div>
@@ -31,9 +34,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.accessory {
-}
-
 .accessory__container {
   @media (min-width: 1024px) {
     display: flex;

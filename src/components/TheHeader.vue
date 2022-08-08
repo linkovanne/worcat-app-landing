@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="section-container header__container">
+    <div class="header__container">
       <div class="header___menu-mob">
         <a class="header___menu-btn" href="#" @click.prevent="isMenuOpened = !isMenuOpened">
           <img v-if="!isMenuOpened" src="../assets/burger.svg" alt="open">
@@ -8,25 +8,25 @@
         </a>
         <div v-if="isMenuOpened" class="header___menu-overlay" @click.prevent="isMenuOpened = !isMenuOpened"></div>
         <ul v-if="isMenuOpened" class="header___menu-list">
-          <li><a href="#" @click.prevent>О проекте</a></li>
-          <li><a href="#" @click.prevent>Герои</a></li>
-          <li><a href="#" @click.prevent>Коллекции</a></li>
-          <li><a href="#" @click.prevent>Токеномика</a></li>
-          <li><a href="#" @click.prevent>Roadmap</a></li>
-          <li><a href="#" @click.prevent>App Worcat</a></li>
-          <li><a href="#" @click.prevent>View on OpenSea</a></li>
+          <li><a href="#about_us">About us</a></li>
+          <li><a href="#heroes">Heroes</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#tokenomics">Tokenomics</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#app">App Worcat</a></li>
+          <li><a href="#opensea">View on OpenSea</a></li>
         </ul>
       </div>
       <a class="header__logo">WORCAT</a>
       <div class="spacer"></div>
       <ul class="header__nav">
-        <li><a href="">О проекте</a></li>
-        <li><a href="">Герои</a></li>
-        <li><a href="">Коллекции</a></li>
-        <li><a href="">Токеномика</a></li>
-        <li><a href="">Roadmap</a></li>
-        <li><a href="">App Worcat</a></li>
-        <li><a href="">View on OpenSea</a></li>
+        <li><a href="#about_us">About us</a></li>
+        <li><a href="#heroes">Heroes</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#app">App Worcat</a></li>
+        <li><a href="#opensea">View on OpenSea</a></li>
       </ul>
       <div class="header__action">
         <ThePlayTrailer/>
@@ -60,9 +60,12 @@ export default {
 }
 
 .header__container {
+  max-width: calc(1771px + 2rem);
+  padding: 40px 1rem 0;
+  margin: 0 auto;
+
   display: flex;
   align-items: center;
-  padding-top: 40px;
   @media (min-width: 1024px) {
   }
   @media (max-width: 1023.98px) {

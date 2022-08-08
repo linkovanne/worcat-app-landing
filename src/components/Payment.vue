@@ -2,54 +2,73 @@
   <section class="payment">
     <div class="section-container payment__container">
       <div class="payment__header">
-        <h2>Оплата в Worcat</h2>
-        <p>За некоторые действия в WorCat нужно будет заплатить комиссию</p>
+        <h2>WorCat payment</h2>
+        <p>You will need to pay a commission for some actions.</p>
       </div>
       <ul class="payment__list">
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Торговля NFT-героями</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_01.svg" alt="">
+          </div>
+          <h3>NFT heroes trading</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Минт NFT-коллекций</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_02.svg" alt="">
+          </div>
+          <h3>Mint of NFT collections</h3>
+          <p>As Pasteur himself commented, “Chance favors
+            only the prepared mind.</p>
+        </li>
+        <li class="payment__item">
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_03.svg" alt="">
+          </div>
+          <h3>Restoring Items</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Аренда предметов</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_04.svg" alt="">
+          </div>
+          <h3>Restoring Items</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Восстановление предметов</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_04.svg" alt="">
+          </div>
+          <h3>Opening Slots</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Открытие слотов</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_05.svg" alt="">
+          </div>
+          <h3>Upgrade and strengthen
+            characters</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Обновление и усиление
-            персонажей</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_01.svg" alt="">
+          </div>
+          <h3>Customization of NFT</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Кастомизация NFT</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_02.svg" alt="">
+          </div>
+          <h3>Raising the level </h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
         <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Повышение уровня</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
-        </li>
-        <li class="payment__item">
-          <div class="payment__item-icon"></div>
-          <h3>Открытие новых локаций</h3>
+          <div class="payment__item-icon">
+            <img src="@/assets/payment/icon_03.svg" alt="">
+          </div>
+          <h3>Opening of new locations</h3>
           <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
         </li>
       </ul>
@@ -181,9 +200,5 @@ export default {
 
   background: #222233;
   border-radius: 8px;
-  @media (min-width: 1024px) {
-  }
-  @media (max-width: 1023.98px) {
-  }
 }
 </style>

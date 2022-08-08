@@ -1,18 +1,19 @@
 <template>
-  <section class="education">
-    <div class="section-container education__container">
-      <div class="section-container__description education__description">
-        <h2>Обучение от Worcat</h2>
+  <section class="training">
+    <div class="section-container training__container">
+      <div class="section-container__description training__description">
+        <h2>Training from Worcat</h2>
         <p>
-          Мы понимаем, как трудно разобраться с рынком криптовалют. Существует множество терминов и сервисов, работу
-          которых понять с первого раза практически невозможно. Криптовалюта стала не только новой технологией, но и
-          огромным миром, который проходит этап своего становления.<br>
-          Worcat поможет освоиться в мире NFT. Стать лучшим и найти друзей.
+          We understand to deal with the cryptocurrency market is difficult. There are many terms and services whose
+          work is practically impossible to understand the first time. Nowadays Cryptocurrency has become not only a new
+          technology but a huge world that is undergoing its formation period. Worcat will help you to know more about
+          NFT world. It can help you to get better and find new friends as well.
         </p>
-        <p class="text-l">WorCat - теперь твой шаг!</p>
+        <p class="text-l">WorCat - now it’s time for your step!</p>
       </div>
-      <div class="section-container__img education__img">
-        <img src="@/assets/education.png" alt="education">
+      <div class="section-container__img training__img">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             src="@/assets/training.png" alt="training">
       </div>
     </div>
   </section>
@@ -20,35 +21,31 @@
 
 <script>
 export default {
-  name: 'EducationSection'
+  name: 'TrainingSection'
 }
 </script>
 
 <style scoped lang="scss">
 @import "src/styles/variables";
 
-.education {
+.training {
 }
 
-.education__container {
+.training__container {
   @media (min-width: 1024px) {
     padding-top: 120px;
     display: flex;
   }
-  //@media (max-width: 1023.98px) {
-    //padding-top: 36px;
-    //flex-direction: column;
-  //}
 }
 
-.education__img {
+.training__img {
   @media (max-width: 1023.98px) {
     margin-top: 36px;
     order: 1;
   }
 }
 
-.education__description {
+.training__description {
   position: relative;
   letter-spacing: 0.374px;
 

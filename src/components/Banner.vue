@@ -1,16 +1,15 @@
 <template>
   <section class="banner">
-    <div class="section-container banner__container">
+    <div class="banner__container">
       <div class="banner__row">
-        <div class="section-container__description banner__description">
-          <h2>Добро пожаловать в мир Worcat</h2>
-          <p>— это первая мобильная игра на базе NFT и концепции Life-to-Earn (Живи, чтобы зарабатывать),
-            созданная на блокчейне «название». </p>
+        <div class="banner__description">
+          <h2>Welcome to Worcat world</h2>
+          <p>The first mobile game based on NFT and Life-to-Earn conception created on the blockchain "name (title)"</p>
           <img src="@/assets/wk_logo.png" alt="">
         </div>
         <div class="banner__app">
-          <h2>Установите приложение Worcat-world</h2>
-          <p>Для начала нужно скачать приложение WorCat и зарегистрироваться</p>
+          <h2>Install the App</h2>
+          <p>Download Worcat App and sign in</p>
           <a class="ui-button" href="">Get Started</a>
         </div>
         <div class="banner__carousel-wrap">
@@ -32,11 +31,11 @@
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
-          Telegram канал
+          Telegram channel
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
-          Telegram чат
+          Telegram chat
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/tiktok.svg" alt="">
@@ -81,6 +80,7 @@ export default {
 }
 
 .banner__container {
+  padding: 0 1rem;
   @media (min-width: 768px) {
     max-width: 1661px;
     padding-top: 109px;
@@ -100,10 +100,11 @@ export default {
 }
 
 .banner__description {
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
+    width: 50%;
     max-width: 344px;
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: 1023.98px) {
     margin-bottom: 43px;
   }
 

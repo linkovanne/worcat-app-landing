@@ -7,14 +7,13 @@
       </div>
       <div class="section-container__description features__description">
         <div class="features__description-block">
-          <h2>WorCat — Безопасность</h2>
-          <p>Прозрачная и безопасная игра полностью в сети с использованием случайных результатов в блокчейне.
-            Надежные и честные результаты, которые можно проверить с помощью криптографических доказательств.</p>
-        </div>
-        <div class="features__description-block">
-          <h2>WorCat — Развитие</h2>
-          <p>Вы можете удвоить свой пассивный доход с новым уровнем. Выполняйте задания, повышайте харизму,
-            развивайтесь и повышай свой уровень.</p>
+          <h2>WorCat — NFT upgrade</h2>
+          <p>
+            It is possible to improve your cat’s appearance and characteristics with
+            the help of the upgrade after some time.
+            Players will be able to freely trade cats on a special marketplace or use them to participate
+            in virtual battles in different locations.
+          </p>
         </div>
       </div>
       <ul class="features__carousel">

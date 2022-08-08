@@ -1,33 +1,34 @@
 <template>
-  <section class="hero">
+  <section id="heroes" class="hero">
     <div class="section-container hero__container">
       <div class="section-container__description hero__description">
-        <h2>Выбери героя, который соответствует твоему характеру или интересу</h2>
+        <h2>Choose a character that matches your character or interest!</h2>
         <p>
-          Ты сможешь зарабатывать6 если у тебя есть NFT-персонаж и ты уделяешь ему достойное внимание заботой,
-          интересом и движением с включенным GPS! <br><br>
-          Чем круче у тебя персонаж, тем выше уровень энергии и возможностей, для прокачки персонажа.
-          Каждому персонажу доступен набор предметов со случайными характеристиками.
+          It is easy to earn with your NFT character. Just give it a decent attention, take care, be interested
+          and move with GPS turned on!<br><br>
+          Чем круче у тебя персонаж, тем выше уровень энергии и возможностей, для прокачки персонаж. Каждому персонажу
+          доступен набор предметов со случайными характеристиками.
         </p>
         <div class="hero__profile">
           <div class="hero__profile-steps">
-            <h3>Твой герой</h3>
+            <h3>Your character</h3>
             <img src="@/assets/hero/hero_cat.png" alt="hero cat">
             <p>
               5 000 <br>
-              <strong>шагов</strong>
+              <strong>steps</strong>
             </p>
           </div>
           <ul class="hero__profile-list">
-            <li>Готовые слоты для улучшения персонажа</li>
-            <li>Улучшенные характеристики</li>
-            <li>Качество</li>
-            <li>Возможность блокировки износа, а также замены предметов</li>
+            <li>Ready-made slots for character improvement</li>
+            <li>Improved features</li>
+            <li>Quality</li>
+            <li>The possibility of wear blocking as well as replacing items</li>
           </ul>
         </div>
       </div>
       <div class="hero__img">
-        <img src="@/assets/hero/hero_screen.png" alt="hero cat">
+        <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
+             src="@/assets/hero/hero_screen.png" alt="hero cat">
       </div>
     </div>
   </section>
@@ -40,9 +41,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero {
-}
-
 .hero__container {
   display: flex;
   @media (min-width: 1024px) {

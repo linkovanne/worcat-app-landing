@@ -2,19 +2,19 @@
   <section class="mission">
     <div class="section-container mission__container">
       <div class="section-container__img mission__img">
-        <img src="@/assets/mission.png" alt="mission">
+        <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
+             src="@/assets/mission.png" alt="mission">
       </div>
       <div class="section-container__description mission__description">
-        <h2>Наша миссия</h2>
-        <p>С помощью доступного языка геймификации в своей основе WorCat сможет привлечь миллионы поклонников к
-          здоровому, правильному образу жизни, заботе окружающих и развитию. <br>
-          Необязательно владеть лично персонажем, возможно командное исполнение и опека над героем. Это позволит
-          укрепить и дух командной работы, наладить коммуникации и способность мыслить успешно внутри команды.
-          <br><br>
-          Наша миссия еще и научить поколение зарабатывать, развивать
-          и управлять децентрализованным кошельком.
+        <h2>Our mission</h2>
+        <p>
+          WorCat will be able to attract millions of fans to a healthy proper lifestyle, caring for others and self- development with the help of
+          an accessible gamification language at its core.<br>
+          Personal character ownership is not necessary. Command execution and custody of the character are possible. It will strengthen the teamwork spirit, establish communication and improve the ability
+          to think successfully within the team.<br>
+          Our mission is also to teach the generation to earn, develop and manage a decentralized wallet.
         </p>
-        <p class="text-l">WorCat - первый шаг в новый мир</p>
+        <p class="text-l">WorCat - the first step into a new world</p>
       </div>
     </div>
   </section>

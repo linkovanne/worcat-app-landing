@@ -1,41 +1,43 @@
 <template>
-  <section class="roadmap">
+  <section id="roadmap" class="roadmap">
     <div class="section-container roadmap__container">
       <div class="roadmap__header">
         <h2>Roadmap</h2>
-        <p>наш путь</p>
+        <p>Our way</p>
       </div>
       <div class="roadmap__list">
         <ul class="roadmap__item">
-          <li>сформировали команду</li>
-          <li>согласовали все идеи и прототипы</li>
-          <li>создали презентации и защитили идеи</li>
-          <li>разработали персонажи</li>
+          <li>formed a team</li>
+          <li>coordinated all ideas and prototypes</li>
+          <li>created presentations and protect the ideas</li>
+          <li>developed characters</li>
         </ul>
         <ul class="roadmap__item">
-          <li>привлекли художников</li>
-          <li>создали серийное множество персонажей</li>
-          <li>запустили сайты, лендинги</li>
-          <li>социальные сети</li>
-          <li>привлекли к работе блогеров, инфлюенсеров в качестве партнёров</li>
-          <li>у нас огромная команда для работы с комьюнити создали множество розыгрышей NFT котов</li>
-          <li>Конкурсы, активности в соц сетях для формирования ваайтлиста на публичную продажу NFT и токенов</li>
+          <li>attracted artists</li>
+          <li>created a serial set of characters</li>
+          <li>launched websites, landing pages and social networks</li>
+          <li>attracted bloggers and influencers as partners</li>
+          <li>we have a huge team to work with the community</li>
+          <li>created a lot of NFT cat drawings</li>
+          <li>In addition we organised contests, social media activities to form a whitelist for the public sale of NFT
+            and tokens.
+          </li>
         </ul>
         <ul class="roadmap__item">
-          <li>Запуск закрытой бета версии приложения</li>
-          <li>Создание Worcat академии и школы</li>
-          <li>Листинг на биржах</li>
-          <li>Проработка новых локаций, персонажей, конкурсов</li>
-          <li>Проработка и запуск аренды кота</li>
-          <li>Эксклюзивные NFT-дропы с инфлюенсерами и брендами</li>
-          <li>Выкуп игровых механик для внедрения в котовселенную</li>
-          <li>Закрепление и модернизация токеномики Воркэт</li>
-          <li>Старт продаж персонажей (бета, демократий, дефолт и продвинутые)</li>
-          <li>Листинг токена</li>
+          <li>Launch the closed beta version of the application</li>
+          <li>Creation of Worcat Academy and School</li>
+          <li>Listing on exchanges</li>
+          <li>Development of new locations, characters, contests</li>
+          <li>Elaboration and launch cat’s rental</li>
+          <li>Exclusive NFT drops with influencers and brands</li>
+          <li>Redemption of game mechanics for introduction into the cat’s universe</li>
+          <li>Consolidation and modernization of tokenomics Work</li>
+          <li>Character’s sales beginning (beta, Democracy, default and advanced)</li>
+          <li>Token Listing</li>
         </ul>
         <ul class="roadmap__item">
-          <li>Адаптация приложений для разных связок с устройствами</li>
-          <li>Запуски механик для тренировок прогулок игр и голосового обновления</li>
+          <li>Adaptation of the App for different links with devices</li>
+          <li>Launching mechanics for trainings, walking, games and voice updates</li>
         </ul>
       </div>
     </div>

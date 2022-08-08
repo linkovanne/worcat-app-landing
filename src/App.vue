@@ -12,7 +12,7 @@
     <AccessorySection/>
     <HeroSection/>
     <MissionSection/>
-    <EducationSection/>
+    <TrainingSection/>
     <RoadmapSection/>
 
     <TheFooter/>
@@ -32,7 +32,7 @@ import PaymentSection from '@/components/Payment';
 import AccessorySection from '@/components/Accessory';
 import HeroSection from '@/components/Hero';
 import MissionSection from '@/components/Mission';
-import EducationSection from '@/components/Education';
+import TrainingSection from '@/components/Training';
 import RoadmapSection from '@/components/Roadmap';
 
 export default {
@@ -50,7 +50,7 @@ export default {
     AccessorySection,
     HeroSection,
     MissionSection,
-    EducationSection,
+    TrainingSection,
     RoadmapSection,
   }
 }

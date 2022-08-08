@@ -8,19 +8,13 @@
         </div>
 
         <div class="section-container__description gameplay__description">
-          <h2>Геймплей</h2>
-          <p class="text-l">Чтобы зарабатывать токены, потребуется купить NFT-Котов.</p>
-          <p class="text-m">
-            Для этого к приложению нужно подключить криптокошелек
-            и внести в него «Название токена» — нативный токен
-            блокчейна «Название».
-          </p>
+          <h2>Gameplay</h2>
+          <p class="text-l">You have to buy NFT cats to earn tokens</p>
+          <p class="text-m">Connect a crypto wallet to the App and enter «Token (title) name». The native blockchain token is "Name (title)"</p>
+          <p class="text-s">Nevertheless start playing without any attachments!</p>
           <p class="text-s">
-            Тем не менее начать играть можно и без вложений: новые пользователи получают бесплатный пробный
-            доступ к приложению и всем его функциям.</p>
-          <p class="text-s">
-            В демо режиме доступен кот ДЭМО_22, он продемонстрирует доступный функционал платформы в
-            ускоренном режиме.
+            DEMO_22 cat is available in demo mode. <br>
+            It will demonstrate the available functionality of the platform in accelerated mode.
           </p>
         </div>
       </div>

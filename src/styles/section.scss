@@ -2,22 +2,24 @@
 }
 
 .section-container {
+  overflow-x: hidden;
   width: 100%;
   max-width: calc(1771px + 2rem);
   margin: 0 auto;
-  padding: 0 1rem;
   @media (max-width: 1023.98px) {
     max-width: 768px;
   }
 }
 
 .section-container__description {
+  padding: 0 1rem;
   @media (min-width: 1024px) {
     width: 50%;
   }
 }
 
 .section-container__img {
+  padding: 0 1rem;
   @media (min-width: 1024px) {
     width: 50%;
   }

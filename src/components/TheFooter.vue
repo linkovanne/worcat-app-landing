@@ -1,15 +1,15 @@
 <template>
   <footer class="footer">
-    <div class="section-container footer__container">
+    <div class="footer__container">
       <div class="footer__row">
         <ul class="footer__nav">
-          <li><a href="">О проекте</a></li>
-          <li><a href="">Герои</a></li>
-          <li><a href="">Коллекции</a></li>
-          <li><a href="">Токеномика</a></li>
-          <li><a href="">Roadmap</a></li>
-          <li><a href="">App Worcat</a></li>
-          <li><a href="">View on OpenSea</a></li>
+          <li><a href="#about_us">About us</a></li>
+          <li><a href="#heroes">Heroes</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#tokenomics">Tokenomics</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#app">App Worcat</a></li>
+          <li><a href="#opensea">View on OpenSea</a></li>
         </ul>
         <div class="footer__action">
           <ThePlayTrailer/>
@@ -22,11 +22,11 @@
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
-          Telegram канал
+          Telegram channel
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/telegram.svg" alt="">
-          Telegram чат
+          Telegram chat
         </a></li>
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/tiktok.svg" alt="">
@@ -60,6 +60,9 @@ export default {
 }
 
 .footer__container {
+  max-width: calc(1771px + 2rem);
+  padding: 40px 1rem 0;
+  margin: 0 auto;
   @media (max-width: 1023.98px) {
     padding-top: 125px;
     padding-bottom: 125px;
