@@ -11,7 +11,7 @@
           <p>The project is being created by a team of professionals. They have developed dozens of Apps and collections
             including a recent one.</p>
         </div>
-        <ul class="about__social ui-social">
+<!--        <ul class="about__social ui-social">
           <li><a class="ui-social__link" href="">
             <img src="@/assets/social/telegram.svg" alt="">
             Telegram channel
@@ -20,7 +20,7 @@
             <img src="@/assets/social/telegram.svg" alt="">
             Telegram chat
           </a></li>
-        </ul>
+        </ul>-->
       </div>
       <div class="section-container__img about__img">
         <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"

@@ -24,7 +24,7 @@
           </ul>
         </div>
       </div>
-      <ul class="ui-social banner__social">
+<!--      <ul class="ui-social banner__social">
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/instagram.svg" alt="">
           Instagram
@@ -49,7 +49,7 @@
           <img src="@/assets/social/youtube.svg" alt="">
           YouTube
         </a></li>
-      </ul>
+      </ul>-->
     </div>
   </section>
 </template>
@@ -252,6 +252,8 @@ export default {
       &:after {
         content: '';
         position: absolute;
+        right: 16px;
+        top: -24px;
         width: 50px;
         height: 50px;
         background: url("@/assets/status_awesome.svg") center / contain no-repeat;

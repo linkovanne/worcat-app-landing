@@ -11,11 +11,11 @@
           <li><a href="#app">App Worcat</a></li>
           <li><a href="#opensea">View on OpenSea</a></li>
         </ul>
-        <div class="footer__action">
+<!--        <div class="footer__action">
           <ThePlayTrailer/>
-        </div>
+        </div>-->
       </div>
-      <ul class="ui-social footer__social">
+<!--      <ul class="ui-social footer__social">
         <li><a class="ui-social__link" href="">
           <img src="@/assets/social/instagram.svg" alt="">
           Instagram
@@ -40,18 +40,18 @@
           <img src="@/assets/social/youtube.svg" alt="">
           YouTube
         </a></li>
-      </ul>
+      </ul>-->
       <div class="footer__copyright">2020 © All Rights Reserved</div>
     </div>
   </footer>
 </template>
 
 <script>
-import ThePlayTrailer from './ThePlayTrailer'
+// import ThePlayTrailer from './ThePlayTrailer'
 
 export default {
   name: 'TheFooter',
-  components: {ThePlayTrailer}
+  // components: {ThePlayTrailer}
 }
 </script>
 

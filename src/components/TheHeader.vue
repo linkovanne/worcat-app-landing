@@ -28,19 +28,19 @@
         <li><a href="#app">App Worcat</a></li>
         <li><a href="#opensea">View on OpenSea</a></li>
       </ul>
-      <div class="header__action">
+<!--      <div class="header__action">
         <ThePlayTrailer/>
-      </div>
+      </div>-->
     </div>
   </header>
 </template>
 
 <script>
-import ThePlayTrailer from './ThePlayTrailer'
+// import ThePlayTrailer from './ThePlayTrailer'
 
 export default {
   name: 'TheHeader',
-  components: {ThePlayTrailer},
+  // components: {ThePlayTrailer},
   data() {
     return {
       isMenuOpened: false,
