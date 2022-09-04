@@ -28,9 +28,9 @@
         <li><a href="#app">App Worcat</a></li>
         <li><a href="#opensea">View on OpenSea</a></li>
       </ul>
-<!--      <div class="header__action">
-        <ThePlayTrailer/>
-      </div>-->
+      <!--      <div class="header__action">
+              <ThePlayTrailer/>
+            </div>-->
     </div>
   </header>
 </template>
@@ -53,6 +53,8 @@ export default {
 @import "src/styles/variables";
 
 .header {
+  position: absolute;
+  width: 100%;
   @media (min-width: 1024px) {
   }
   @media (max-width: 1023.98px) {
@@ -61,7 +63,7 @@ export default {
 
 .header__container {
   max-width: calc(1771px + 2rem);
-  padding: 40px 1rem 0;
+  padding: 40px 2rem 0;
   margin: 0 auto;
 
   display: flex;
@@ -122,6 +124,7 @@ export default {
   top: 85px;
   padding: 0 30px;
   background: $black;
+
   li {
     margin: 16px 0;
   }

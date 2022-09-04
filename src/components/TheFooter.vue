@@ -61,7 +61,7 @@ export default {
 
 .footer__container {
   max-width: calc(1771px + 2rem);
-  padding: 40px 1rem 0;
+  padding: 40px 2rem 0;
   margin: 0 auto;
   @media (max-width: 1023.98px) {
     padding-top: 125px;

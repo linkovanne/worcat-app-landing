@@ -51,11 +51,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.roadmap {
-}
-
 .roadmap__container {
   position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
   @media (min-width: 1024px) {
     max-width: 1526px;
     padding-top: 86px;
@@ -123,9 +122,6 @@ export default {
     align-items: flex-start;
     background: url("@/assets/roadmap/line.png") top center / contain no-repeat;
   }
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    max-width: 1024px;
-  }
 }
 
 .roadmap__item {
@@ -150,15 +146,15 @@ export default {
   }
   @media (min-width: 1024px) and (max-width: 1439.98px) {
     &:nth-of-type(1) {
-      margin-top: 185px;
+      margin-top: 230px;
     }
 
     &:nth-of-type(2) {
-      margin-top: 203px;
+      margin-top: 230px;
     }
 
     &:nth-of-type(3) {
-      margin-top: 130px;
+      margin-top: 145px;
     }
 
     &:nth-of-type(4) {
@@ -175,20 +171,13 @@ export default {
   }
 
   &:before {
-    content: '';
-    position: absolute;
-    @media (min-width: 1024px) {
-      top: 0;
-      left: 0;
-      width: 67px;
-      height: 67px;
-      background: url("@/assets/roadmap/bullet.svg") center / contain no-repeat;
-    }
     @media (max-width: 1023.98px) {
+      content: '';
+      position: absolute;
       width: 30px;
       height: 30px;
       top: 36px;
-      left: 150px;
+      left: calc(140px - 2rem);
       background: url("@/assets/roadmap/bullet_circle.svg") center / contain no-repeat;
     }
   }

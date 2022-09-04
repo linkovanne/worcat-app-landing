@@ -11,36 +11,35 @@
             <img src="@/assets/payment/icon_01.svg" alt="">
           </div>
           <h3>NFT heroes trading</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_02.svg" alt="">
           </div>
           <h3>Mint of NFT collections</h3>
-          <p>As Pasteur himself commented, “Chance favors
-            only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_03.svg" alt="">
           </div>
           <h3>Restoring Items</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_04.svg" alt="">
           </div>
           <h3>Restoring Items</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_04.svg" alt="">
           </div>
           <h3>Opening Slots</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
@@ -48,28 +47,28 @@
           </div>
           <h3>Upgrade and strengthen
             characters</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_01.svg" alt="">
           </div>
           <h3>Customization of NFT</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_02.svg" alt="">
           </div>
           <h3>Raising the level </h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
         <li class="payment__item">
           <div class="payment__item-icon">
             <img src="@/assets/payment/icon_03.svg" alt="">
           </div>
           <h3>Opening of new locations</h3>
-          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>
+<!--          <p>As Pasteur himself commented, “Chance favors only the prepared mind.</p>-->
         </li>
       </ul>
     </div>
@@ -175,7 +174,7 @@ export default {
   }
 
   h3 {
-    margin-bottom: 1rem;
+    //margin-bottom: 1rem;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.3;

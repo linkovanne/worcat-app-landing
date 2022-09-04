@@ -3,12 +3,8 @@
     <div class="section-container hero__container">
       <div class="section-container__description hero__description">
         <h2>Choose a character that matches your character or interest!</h2>
-        <p>
-          It is easy to earn with your NFT character. Just give it a decent attention, take care, be interested
-          and move with GPS turned on!<br><br>
-          Чем круче у тебя персонаж, тем выше уровень энергии и возможностей, для прокачки персонаж. Каждому персонажу
-          доступен набор предметов со случайными характеристиками.
-        </p>
+        <p>It is easy to earn with your NFT character. Just give it a decent attention, take care, be interested
+          and move with GPS turned on!</p>
         <div class="hero__profile">
           <div class="hero__profile-steps">
             <h3>Your character</h3>
@@ -81,9 +77,11 @@ export default {
 
 .hero__profile {
   @media (min-width: 1024px) {
+    margin-top: 53px;
     display: flex;
   }
   @media (max-width: 1023.98px) {
+    margin-top: 21px;
   }
 }
 
@@ -142,10 +140,12 @@ export default {
 
   li {
     position: relative;
-    max-width: calc(415px + 33px + 53px);
+    max-width: 485px;
     min-height: 53px;
-    margin-bottom: 16px;
     padding-left: calc(33px + 53px);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
     font-size: 18px;
     line-height: 1.94;
     letter-spacing: 0.374px;
@@ -153,8 +153,9 @@ export default {
     &:before {
       content: '';
       position: absolute;
-      top: 0;
+      top: 50%;
       left: 0;
+      transform: translateY(-50%);
       width: 53px;
       height: 53px;
       background: url("@/assets/hero/check_mark.svg") center / contain no-repeat;

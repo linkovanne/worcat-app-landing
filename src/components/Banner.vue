@@ -1,5 +1,6 @@
 <template>
   <section class="banner">
+    <VideoBgrComponent class="banner__video"/>
     <div class="banner__container">
       <div class="banner__row">
         <div class="banner__description">
@@ -7,11 +8,11 @@
           <p>The first mobile game based on NFT and Life-to-Earn conception created on the blockchain "name (title)"</p>
           <img src="@/assets/wk_logo.png" alt="">
         </div>
-        <div class="banner__app">
-          <h2>Install the App</h2>
-          <p>Download Worcat App and sign in</p>
-          <a class="ui-button" href="">Get Started</a>
-        </div>
+        <!--<div class="banner__app">
+                  <h2>Install the App</h2>
+                  <p>Download Worcat App and sign in</p>
+                  <a class="ui-button" href="">Get Started</a>
+            </div>-->
         <div class="banner__carousel-wrap">
           <ul class="banner__carousel">
             <li class="banner__carousel-item hot"><img src="@/assets/banner/rectangle_01.png" alt=""></li>
@@ -24,39 +25,42 @@
           </ul>
         </div>
       </div>
-<!--      <ul class="ui-social banner__social">
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/instagram.svg" alt="">
-          Instagram
-        </a></li>
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/telegram.svg" alt="">
-          Telegram channel
-        </a></li>
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/telegram.svg" alt="">
-          Telegram chat
-        </a></li>
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/tiktok.svg" alt="">
-          TikTok
-        </a></li>
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/twitter.svg" alt="">
-          Twitter
-        </a></li>
-        <li><a class="ui-social__link" href="">
-          <img src="@/assets/social/youtube.svg" alt="">
-          YouTube
-        </a></li>
-      </ul>-->
+      <!--      <ul class="ui-social banner__social">
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/instagram.svg" alt="">
+                Instagram
+              </a></li>
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/telegram.svg" alt="">
+                Telegram channel
+              </a></li>
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/telegram.svg" alt="">
+                Telegram chat
+              </a></li>
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/tiktok.svg" alt="">
+                TikTok
+              </a></li>
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/twitter.svg" alt="">
+                Twitter
+              </a></li>
+              <li><a class="ui-social__link" href="">
+                <img src="@/assets/social/youtube.svg" alt="">
+                YouTube
+              </a></li>
+            </ul>-->
     </div>
   </section>
 </template>
 
 <script>
+import VideoBgrComponent from './VideoBgrComponent'
+
 export default {
   name: 'BannerSection',
+  components: {VideoBgrComponent}
 }
 </script>
 
@@ -64,6 +68,9 @@ export default {
 @import "src/styles/variables";
 
 .banner {
+  position: relative;
+  padding-top: 76px;
+
   h2 {
     margin-bottom: 1rem;
     font-weight: 700;
