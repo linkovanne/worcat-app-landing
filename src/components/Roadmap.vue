@@ -19,9 +19,7 @@
           <li>attracted bloggers and influencers as partners</li>
           <li>we have a huge team to work with the community</li>
           <li>created a lot of NFT cat drawings</li>
-          <li>In addition we organised contests, social media activities to form a whitelist for the public sale of NFT
-            and tokens.
-          </li>
+          <li>In addition we organised contests, social media activities to form a whitelist for the public sale of NFT and tokens.</li>
         </ul>
         <ul class="roadmap__item">
           <li>Launch the closed beta version of the application</li>
@@ -59,7 +57,6 @@ export default {
     max-width: 1526px;
     padding-top: 86px;
     padding-bottom: 186px;
-    background: url("@/assets/roadmap/background.png") 100% 85% / 630px 702px no-repeat;
   }
   @media (max-width: 1023.98px) {
     max-width: 380px;
