@@ -11,18 +11,8 @@
           <p>The project is being created by a team of professionals. They have developed dozens of Apps and collections
             including a recent one.</p>
         </div>
-<!--        <ul class="about__social ui-social">
-          <li><a class="ui-social__link" href="">
-            <img src="@/assets/social/telegram.svg" alt="">
-            Telegram channel
-          </a></li>
-          <li><a class="ui-social__link" href="">
-            <img src="@/assets/social/telegram.svg" alt="">
-            Telegram chat
-          </a></li>
-        </ul>-->
       </div>
-      <div class="section-container__img about__img">
+      <div class="section-container__img section-container__shadow about__img">
         <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
              src="@/assets/about_bg.png" alt="bgr">
       </div>
@@ -40,10 +30,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.about {
-  overflow-x: hidden;
-}
-
 .about__container {
   letter-spacing: 0.374px;
   @media (min-width: 1024px) {
@@ -134,6 +120,13 @@ export default {
   max-width: 740px;
   @media (max-width: 1023.98px) {
     display: none;
+  }
+
+  &:before {
+    left: 42px;
+    top: 177px;
+    width: 1036px;
+    height: 980px;
   }
 }
 </style>

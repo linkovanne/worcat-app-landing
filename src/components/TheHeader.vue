@@ -13,7 +13,7 @@
           <li><a href="#collection">Collection</a></li>
           <li><a href="#tokenomics">Tokenomics</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#app">App Worcat</a></li>
+          <li><a href="#accessory">App Worcat</a></li>
           <li><a href="#opensea">View on OpenSea</a></li>
         </ul>
       </div>
@@ -25,7 +25,7 @@
         <li><a href="#collection">Collection</a></li>
         <li><a href="#tokenomics">Tokenomics</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
-        <li><a href="#app">App Worcat</a></li>
+        <li><a href="#accessory">App Worcat</a></li>
         <li><a href="#opensea">View on OpenSea</a></li>
       </ul>
       <!--      <div class="header__action">

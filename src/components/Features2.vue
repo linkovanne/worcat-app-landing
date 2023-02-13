@@ -1,7 +1,7 @@
 <template>
   <section class="section features">
     <div class="section-container features__container">
-      <div class="section-container__img features__img">
+      <div class="section-container__img section-container__shadow features__img">
         <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
              src="@/assets/features_2/feature_bgr.png" alt="cat">
       </div>
@@ -75,6 +75,13 @@ export default {
 
 .features__img {
   text-align: center;
+
+  &:before {
+    top: 200px;
+    left: 0;
+    height: 504px;
+    width: 623px;
+  }
 }
 
 .features__carousel {

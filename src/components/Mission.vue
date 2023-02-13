@@ -1,7 +1,7 @@
 <template>
   <section class="mission">
     <div class="section-container mission__container">
-      <div class="section-container__img mission__img">
+      <div class="section-container__img section-container__shadow mission__img">
         <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
              src="@/assets/mission.png" alt="mission">
       </div>
@@ -28,6 +28,7 @@ export default {
 
 <style scoped lang="scss">
 @import "src/styles/variables";
+
 .mission {
 }
 
@@ -46,6 +47,13 @@ export default {
   @media (max-width: 1023.98px) {
     margin-top: 36px;
     order: 1;
+  }
+
+  &:before {
+    top: 197px;
+    left: 287px;
+    height: 541px;
+    width: 623px;
   }
 }
 

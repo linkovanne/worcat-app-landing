@@ -6,7 +6,7 @@
         <p>It is easy to earn with your NFT character. Just give it a decent attention, take care, be interested
           and move with GPS turned on!</p>
         <div class="hero__profile">
-          <div class="hero__profile-steps">
+          <div class="section-container__shadow hero__profile-steps">
             <h3>Your character</h3>
             <img src="@/assets/hero/hero_cat.png" alt="hero cat">
             <p>
@@ -88,6 +88,13 @@ export default {
 .hero__profile-steps {
   @media (max-width: 1023.98px) {
     text-align: center;
+  }
+
+  &:before {
+    top: 247px;
+    right: 15px;
+    height: 504px;
+    width: 623px;
   }
 
   h3 {

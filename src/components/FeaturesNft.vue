@@ -10,7 +10,7 @@
           </p>
           <EmailForm class="features-nft__form"/>
         </div>
-        <div class="features-nft__img">
+        <div class="section-container__shadow features-nft__img">
           <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
                src="@/assets/features_nft_bg.png" alt="">
         </div>
@@ -83,9 +83,18 @@ export default {
   @media (min-width: 1024px) {
     position: relative;
     max-width: 48%;
-
+    img {
+      position: relative;
+    }
     &:before {
+      top: 32px;
+      left: 156px;
+      height: 688px;
+      width: 851px;
+    }
+    &:after {
       content: '';
+      z-index: -1;
       position: absolute;
       bottom: 0;
       right: 100%;

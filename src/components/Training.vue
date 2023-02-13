@@ -11,7 +11,7 @@
         </p>
         <p class="text-l">WorCat - now it’s time for your step!</p>
       </div>
-      <div class="section-container__img training__img">
+      <div class="section-container__img section-container__shadow training__img">
         <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
              src="@/assets/training.png" alt="training">
       </div>
@@ -42,6 +42,13 @@ export default {
   @media (max-width: 1023.98px) {
     margin-top: 36px;
     order: 1;
+  }
+
+  &:before {
+    top: 147px;
+    left: 284px;
+    height: 541px;
+    width: 623px;
   }
 }
 

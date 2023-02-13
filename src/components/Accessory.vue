@@ -1,5 +1,5 @@
 <template>
-  <section id="app" class="accessory">
+  <section id="accessory" class="accessory">
     <div class="section-container accessory__container">
       <div class="section-container__description accessory__description">
         <h2>
@@ -12,9 +12,9 @@
           Players will be able to freely trade cats on a special marketplace
           or use them to participate in virtual battles in different locations.
         </p>
-        <EmailForm class="accessory__form" />
+        <EmailForm class="accessory__form"/>
       </div>
-      <div class="section-container__img accessory__img">
+      <div class="section-container__img section-container__shadow accessory__img">
         <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
              class="pc" src="@/assets/accessory.png" alt="screens">
         <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
@@ -77,6 +77,13 @@ export default {
 .accessory__img {
   @media (max-width: 1023.98px) {
     margin-top: 43px;
+  }
+
+  &:before {
+    left: 0;
+    top: 446px;
+    height: 504px;
+    width: 623px;
   }
 
   .pc {

@@ -20,7 +20,7 @@
         </p>
       </div>
     </div>
-    <div class="features__img">
+    <div class="section-container__shadow features__img">
       <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
            class="pc" src="@/assets/features.png" alt="features">
       <img data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1500"
@@ -89,6 +89,13 @@ export default {
   }
   @media (max-width: 1023.98px) {
     margin-top: 28px;
+  }
+
+  &:before {
+    left: 250px;
+    top: 165px;
+    height: 688px;
+    width: 851px;
   }
 
   .pc {

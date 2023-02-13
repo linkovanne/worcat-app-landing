@@ -2,7 +2,7 @@
   <section class="gameplay">
     <div class="section-container gameplay__container">
       <div class="gameplay__row">
-        <div class="gameplay__img">
+        <div class="section-container__shadow gameplay__img">
           <img data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1500"
                src="@/assets/gameplay.png" alt="">
         </div>
@@ -62,6 +62,13 @@ export default {
     img {
       max-width: 329px;
     }
+  }
+
+  &:before {
+    top: 324px;
+    right: 290px;
+    height: 688px;
+    width: 851px;
   }
 }
 
